@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E10022.views.Actualizar"
+             Title="Actualizar">
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout >
+                        <StackLayout>
+                            <Image HeightRequest="200" Source="{Binding imagenlista, Converter={StaticResource bisc}}" x:Name="imagefile" Grid.Row="0" ></Image>
+                            <Entry Keyboard="Numeric" IsEnabled="False" x:Name="Id" Text="{Binding idlista}" Placeholder="Id"/>
+                            <Entry Keyboard="Numeric" IsEnabled="False" x:Name="Latitud" Text="{Binding latitudLista}" Placeholder="Latitud"/>
+                            <Entry Keyboard="Numeric" IsEnabled="False" x:Name="Longitud"  Text="{Binding longitudLista}" Placeholder="Longitud"/>
+                            <Editor Keyboard="Text" x:Name="Descripcion" Text="{Binding descripcionLista}" Placeholder="Descripcion"/>
+                            <Button x:Name="Button_Foto" Clicked="Foto_Clicked"  Text="Tomar Foto" />
+                            <Button x:Name="Button_Actualizar" Clicked="Actualizar_Clicked"  Text="Actualizar"></Button>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

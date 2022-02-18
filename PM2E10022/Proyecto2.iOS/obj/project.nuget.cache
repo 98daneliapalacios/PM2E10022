@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kG96qDRzJkmK23uMDOr+H9upT6T/rLZT2U+o5xmiyNpYqJdR0LfkOKHjVtv6Ymy4jE7DD400qgYNcZ6VMsEoTg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\HP Envy\\Desktop\\Examen\\Proyecto2\\Proyecto2\\Proyecto2.iOS\\Proyecto2.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\HP Envy\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\HP Envy\\.nuget\\packages\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Users\\HP Envy\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

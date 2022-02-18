@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.Android\\PM2E10022.Android.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.Android\\PM2E10022.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.Android\\PM2E10022.Android.csproj",
+        "projectName": "Proyecto2.Android",
+        "projectPath": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.Android\\PM2E10022.Android.csproj",
+        "packagesPath": "C:\\Users\\DANELIA-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.Android\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DANELIA-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid11.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid11.0": {
+            "projectReferences": {
+              "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.csproj": {
+                "projectPath": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid11.0": {
+          "dependencies": {
+            "Wibci.Xamarin.Forms.Converters": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      }
+    },
+    "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.csproj",
+        "projectName": "PM2E10022",
+        "projectPath": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022.csproj",
+        "packagesPath": "C:\\Users\\DANELIA-PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DANELIA-PC\\Desktop\\PM2E10022\\PM2E10022\\PM2E10022\\PM2E10022\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DANELIA-PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Wibci.Xamarin.Forms.Converters": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2291, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

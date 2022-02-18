@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E10022.views.Ubicaciones"
+             Title="Ubicaciones">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+
+            <StackLayout  Padding="20">
+
+
+                <ListView RowHeight="130" ItemSelected="lista_ItemSelected"  x:Name="listaUbicaciones"  >
+                    <ListView.ItemTemplate>
+
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Margin="10" VerticalOptions="Center">
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto"/>
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+
+                                        <Image Grid.Row="0" Grid.Column="0" Source="{Binding fotografia,Converter={StaticResource bisc}}" />
+                                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding descripcion}" FontSize="14" VerticalOptions="CenterAndExpand" />
+                                        <Label Grid.Row="0" Grid.Column="2" Text="{Binding latitud}" FontSize="14" VerticalOptions="CenterAndExpand"  />
+                                        <Label Grid.Row="0" Grid.Column="3" Text="{Binding longitud}" FontSize="14" VerticalOptions="CenterAndExpand"  />
+                                    </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <Grid HorizontalOptions="CenterAndExpand">
+                    <Label x:Name="id" IsVisible="false"></Label>
+                    <Label x:Name="descripcion" IsVisible="false"></Label>
+                    <Label x:Name="latitud" IsVisible="false"></Label>
+                    <Label x:Name="longitud" IsVisible="false"></Label>
+
+                    <Button HeightRequest="60" Grid.Row="0" x:Name="Eliminar" Clicked="Eliminar_Clicked"  Grid.Column="0" Text="Eliminar"/>
+                    <Button HeightRequest="60" Grid.Row="0" x:Name="actualizar" Clicked="actualizar_Clicked"  Grid.Column="1" Text="Actualizar"/>
+                    <Button HeightRequest="60" Grid.Row="0" x:Name="Mapa"  Clicked="ShowMapa_Clicked"  Grid.Column="2" Text="Mapa"/>
+                </Grid>
+
+
+            </StackLayout>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

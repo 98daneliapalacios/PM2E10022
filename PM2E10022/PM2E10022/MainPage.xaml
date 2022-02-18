@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM2E10022.MainPage"
+             Title="Inicio">
+
+
+    <ContentPage.Content>
+        <StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <StackLayout>
+                        <Image HeightRequest="300" x:Name="imagefile" />
+                        <Entry  x:Name="Latitud" Keyboard="Numeric" IsEnabled="False" Placeholder="Latitud"/>
+                        <Entry  x:Name="Longitud" Keyboard="Numeric" IsEnabled="False" Placeholder="Longitud"/>
+                        <Editor x:Name="Descripcion" Keyboard="Text" Placeholder="Descripcion"/>
+                        <Button x:Name="Camara" Clicked="Camara_Clicked" Text="Tomar Foto" />
+                        <Button x:Name="Guardar" Clicked="Guardar_Clicked"  Text="Guardar" />
+                        <Button x:Name="Lista" Clicked="Lista_Clicked" Text="Lista Ubicaciones" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
